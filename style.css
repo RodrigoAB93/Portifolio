@@ -12,20 +12,12 @@ a{
   
 }  
 
-
-
 body{ 
-  height: 90vh; 
-  width: 100%; 
-  background-color:#e9d7f191; 
-  max-width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-
+  background-color: #a299b6 !important
 }
 
 footer{ 
-   
+   background-color: #c9bece;
   width: 100%;  
   padding-top: 80px;
   margin-bottom: auto;
@@ -94,19 +86,39 @@ footer{
   font-size: 16px; 
   font-style:bold;
   background-color:#c9bece; 
-  margin: 30% 0% 0% 0%;
+  margin: 5% 0% 0% 0%;
 }
 
 #tecnologies{ 
   display: inline-flex;  
-  background-color: #786e99; 
+  background-color: #786e99;  
+  margin-left: 0.05%;
+  margin-right: 0.1%;
+  margin-top: 2%;
+  
 
 
 } 
 #projects{ 
-  display: inline-flex; 
-  margin: 2% 0% 0% 0%; 
+  display: inline-flex;  
+  margin-top: 2%;
+  margin-left: 0.1%;  
   background-color: #786e99;
+} 
+
+#education{ 
+  display: inline-flex;  
+  margin-top: 2%;
+  margin-left: 0.2%;  
+  background-color: #786e99;
+} 
+
+#experience{ 
+  display: inline-flex;  
+  background-color: #786e99;  
+  margin-left: 0.05%;
+  margin-right: 0.1%;
+  margin-top: 2%;
 }
 .btn{ 
   padding: 0%; 
