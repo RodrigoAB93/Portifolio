@@ -1,9 +1,10 @@
+/*Elementos HTML*/
 h1,h2,h3{ 
   font-family:Arial, Helvetica, sans-serif;  
   font-size: 16px;
    display:inline-flex; 
    margin: 0% 0% 0% 20%; 
-   color: #1e1d64; 
+   color: #000; 
 }  
 
 a{
@@ -13,30 +14,26 @@ a{
 }  
 
 body{ 
-  background-color: #a299b6 !important
+  background-color: #43517c !important
 }
 
 footer{ 
-   background-color: #c9bece;
+  background-color: #43517c;
   width: 100%;  
   padding-top: 80px;
   margin-bottom: auto;
 }
 
-  
-
+ /* ID's */ 
 #container_header{ 
-  background-color: #c9bece; 
+  background-color: #182b65; 
   margin: 1px solid #000000;
 
 }
 
-
-
-
-#pic1{ 
-  height:10%; 
-  width: 10%; 
+#gif1{ 
+  height:50%; 
+  width: 50%; 
   border-radius: 50%;  
   border: 1px solid #715e7c;
 } 
@@ -55,7 +52,7 @@ footer{
   font-size: 32px;
    display:inline-flex; 
    margin: 0%; 
-   color: #1e1d64;   
+   color: #000;   
 }
  
 #linkedin_icon{ 
@@ -85,13 +82,13 @@ footer{
   font-family:Arial, Helvetica, sans-serif;  
   font-size: 16px; 
   font-style:bold;
-  background-color:#c9bece; 
+  background-color:#2d3e6e; 
   margin: 5% 0% 0% 0%;
 }
 
 #tecnologies{ 
   display: inline-flex;  
-  background-color: #786e99;  
+  background-color: #686797;  
   margin-left: 0.05%;
   margin-right: 0.1%;
   margin-top: 2%;
@@ -103,23 +100,50 @@ footer{
   display: inline-flex;  
   margin-top: 2%;
   margin-left: 0.1%;  
-  background-color: #786e99;
+  background-color: #686797;
 } 
 
 #education{ 
   display: inline-flex;  
   margin-top: 2%;
-  margin-left: 0.2%;  
-  background-color: #786e99;
+ margin-right: 0.1%;  
+  background-color: #686797;
+} 
+#education_title{ 
+  display:flex; 
+  position:absolute;
 } 
 
 #experience{ 
   display: inline-flex;  
-  background-color: #786e99;  
-  margin-left: 0.05%;
-  margin-right: 0.1%;
+  background-color: #686797;  
+ 
+  margin-left: 0.2%;
   margin-top: 2%;
-}
+} 
+
+#logo_company{ 
+  width:15%; 
+  height:15%; 
+  display:flex;  
+  float:left;
+
+} 
+#company_description{ 
+  float:right; 
+  display:flex;
+} 
+#company_title{  
+  float:left;  
+  position: absolute; 
+}  
+
+
+ /*Classes*/ 
+ .card{ 
+   background-color: #7977af !important; 
+   border:0.5px solid #2a4186;
+ }
 .btn{ 
   padding: 0%; 
   margin: 0%; 
