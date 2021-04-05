@@ -102,33 +102,48 @@ footer{
   margin-left: 0.1%;  
   background-color: #686797;
 } 
+#logo_lifebox{ 
+  width:10%; 
+  height:30%; 
+  float:left;  
 
+}
 #education{ 
   display: inline-flex;  
   margin-top: 2%;
- margin-right: 0.1%;  
-  background-color: #686797;
+ margin-right: 0.05%;  
+  background-color: #686797; 
+  
+}   
+#logo_education{ 
+  width:15%; 
+  height:45%; 
+  display:flex;  
+  float:left;
 } 
-#education_title{ 
-  display:flex; 
-  position:absolute;
-} 
+
+#education_description{ 
+float:right; 
+display:flex;
+}
+
 
 #experience{ 
   display: inline-flex;  
-  background-color: #686797;  
- 
-  margin-left: 0.2%;
   margin-top: 2%;
+  margin-left: 0.1%;  
+  background-color: #686797;
 } 
 
 #logo_company{ 
   width:15%; 
   height:15%; 
-  display:flex;  
+  display:inline-flex;  
   float:left;
 
-} 
+}  
+
+
 #company_description{ 
   float:right; 
   display:flex;
@@ -142,7 +157,8 @@ footer{
  /*Classes*/ 
  .card{ 
    background-color: #7977af !important; 
-   border:0.5px solid #2a4186;
+   border:0.5px solid #2a4186; 
+   margin:10px auto auto 10px;
  }
 .btn{ 
   padding: 0%; 
